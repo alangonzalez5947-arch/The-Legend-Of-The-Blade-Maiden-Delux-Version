@@ -18,23 +18,23 @@ font = pygame.font.SysFont(None, 50)
 # Aqui van los sprites de animación
 
 player_frames = [
-    pygame.image.load("Player_Walking_frame1.png").convert_alpha(),
-    pygame.image.load("Player_Walking_frame2.png").convert_alpha(),
-    pygame.image.load("Player_Walking_frame3.png").convert_alpha(),
-    pygame.image.load("Player_Walking_frame4.png").convert_alpha(),
-    pygame.image.load("Player_Walking_frame5.png").convert_alpha(),
-    pygame.image.load("Player_Walking_frame6.png").convert_alpha(),
-    pygame.image.load("Player_Walking_frame7.png").convert_alpha(),
+    pygame.image.load("Assets//Images//Characters//Player//Player_Walking_frame1.png").convert_alpha(),
+    pygame.image.load("Assets//Images//Characters//Player//Player_Walking_frame2.png").convert_alpha(),
+    pygame.image.load("Assets//Images//Characters//Player//Player_Walking_frame3.png").convert_alpha(),
+    pygame.image.load("Assets//Images//Characters//Player//Player_Walking_frame4.png").convert_alpha(),
+    pygame.image.load("Assets//Images//Characters//Player//Player_Walking_frame5.png").convert_alpha(),
+    pygame.image.load("Assets//Images//Characters//Player//Player_Walking_frame6.png").convert_alpha(),
+    pygame.image.load("Assets//Images//Characters//Player//Player_Walking_frame7.png").convert_alpha(),
 ]
 
 enemy_frames = [
-    pygame.image.load("Goblin_running_frame1.png").convert_alpha(),
-    pygame.image.load("Goblin_running_frame2.png").convert_alpha(),
-    pygame.image.load("Goblin_running_frame3.png").convert_alpha(),
-    pygame.image.load("Goblin_running_frame4.png").convert_alpha(),
-    pygame.image.load("Goblin_running_frame5.png").convert_alpha(),
-    pygame.image.load("Goblin_running_frame6.png").convert_alpha(),
-    pygame.image.load("Goblin_running_frame7.png").convert_alpha(),
+    pygame.image.load("Assets//Images//Characters//Player//Goblin_running_frame1.png").convert_alpha(),
+    pygame.image.load("Assets//Images//Characters//Player//Goblin_running_frame2.png").convert_alpha(),
+    pygame.image.load("Assets//Images//Characters//Player//Goblin_running_frame3.png").convert_alpha(),
+    pygame.image.load("Assets//Images//Characters//Player//Goblin_running_frame4.png").convert_alpha(),
+    pygame.image.load("Assets//Images//Characters//Player//Goblin_running_frame5.png").convert_alpha(),
+    pygame.image.load("Assets//Images//Characters//Player//Goblin_running_frame6.png").convert_alpha(),
+    pygame.image.load("Assets//Images//Characters//Player//Goblin_running_frame7.png").convert_alpha(),
 ]
 
 # Reescalar
@@ -167,5 +167,6 @@ def main_menu():
 
 loading_screen(4)
 main_menu()
+
 
 
