@@ -1,0 +1,70 @@
+The Legend of the Blade Maiden
+
+Género: Medieval, Acción y Aventura
+Estado del proyecto: Fase temprana / prototipo
+
+Descripción:
+
+The Legend of the Blade Maiden sigue la historia de una joven guerrera que se embarca en una misión para derrotar a un poderoso archimago que amenaza con sumir al reino en la oscuridad. Aunque actualmente el juego cuenta con un solo nivel, está diseñado como la base de un proyecto más grande que expandirá la aventura, el combate y la exploración.
+
+Características:
+
+Aventura de acción ambientada en un mundo medieval.
+
+Un nivel inicial que sirve como prototipo del juego.
+
+Pantalla de carga simple antes de iniciar la partida.
+
+Controles intuitivos y movimiento libre del personaje.
+
+Controles:
+
+Movimiento del personaje:
+
+Barra espaciadora — Salto 
+
+A — Mover hacia la izquierda
+
+S — Agacharse
+
+D — Mover hacia la derecha
+
+J — Atacar
+
+Menú inicial:
+
+ENTER — Iniciar el juego
+
+ESC — Salir
+
+Cómo jugar:
+
+Asegúrate de tener Python instalado.
+
+Descargar la librería que esta compartida en GitHub 
+
+Instala la librería pygame:
+
+pip install pygame
+
+
+Ejecuta el archivo principal del juego usando Python.
+
+Iniciándolo desde Intro.py 
+
+Verás una pantalla de carga.
+
+Presiona ENTER para comenzar la aventura o ESC para salir.
+
+Tecnologías utilizadas:
+
+Python
+
+Pygame (para gráficos, eventos y control del juego)
+
+Estado del proyecto:
+
+Este videojuego se encuentra en una fase muy temprana de desarrollo. Solo incluye un nivel a modo de prototipo, pero representa los cimientos para expandir la historia, la jugabilidad y los sistemas del juego. En esta fase logramos añadir animaciones a nuestro personaje como: Atacar, saltar, agacharse y caminar.
+
+Un enemigo esta en la pantalla el cual tiene movimiento, ataque y derrota. Por falta de tiempo y experiencia no logramos hacer que el enemigo tuviera mas vida, ya que solo resiste un solo golpe y se deshace.
+
